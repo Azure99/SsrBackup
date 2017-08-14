@@ -1,0 +1,241 @@
+# translation for Simplified Chinese
+
+Shadowsocks=Shadowsocks
+
+# Menu items
+
+Mode=系统代理模式
+No modify system proxy=保持当前状态不修改
+Disable system proxy=直连模式
+PAC=PAC 模式
+Global=全局模式
+Proxy rule=代理规则
+Bypass LAN=绕过局域网
+Bypass LAN && China=绕过局域网和大陆
+Bypass LAN && not China=绕过局域网和非大陆
+User custom=用户自定义
+Disable bypass=全局
+Servers=服务器
+Edit servers...=编辑服务器...
+Import servers from file...=从文件导入服务器...
+Servers Subscribe=服务器订阅
+Subscribe setting...=SSR服务器订阅设置...
+Update subscribe SSR node=更新SSR服务器订阅
+Update subscribe SSR node(bypass proxy)=更新SSR服务器订阅（不通过代理）
+Global settings...=选项设置...
+Start on Boot=开机启动
+Allow Clients from LAN=允许来自局域网的连接
+Load balance=服务器负载均衡
+Same host for same address=优先相同节点连接同一地址
+Enable domain white list(http proxy only)=使用域名白名单(仅http代理)
+Update local PAC from Lan IP list=更新PAC为绕过局域网IP
+Update local PAC from Chn White list=更新PAC为绕过大陆常见域名列表
+Update local PAC from Chn IP list=更新PAC为绕过大陆IP(慎用)
+Update local PAC from GFWList=更新PAC为GFWList
+Update local PAC from Chn Only list=更新PAC为仅通过大陆常见域名（国外访问大陆）
+Copy PAC URL=复制 PAC URL
+Edit local PAC file...=编辑本地 PAC 文件...
+Edit user rule for GFWList...=编辑 GFWList 的用户规则...
+Show QRCode...=显示二维码...
+Scan QRCode from screen...=二维码扫描...
+Import SSR links from clipboard...=剪贴板批量导入ssr://链接...
+Port settings...=端口设置...
+Server statistic...=服务器连接统计...
+Disconnect current=断开当前所有连接
+New version {0} {1} available=【点击下载新版本 {0} {1}】
+Help=帮助
+Check update=检查更新
+Show logs...=显示日志...
+Open wiki...=打开Wiki文档...
+Feedback...=问题反馈...
+Gen custom QRCode...=自定义生成二维码
+Reset password...=设置客户端密码...
+About...=关于...
+Donate...=捐助...
+Quit=退出
+Edit Servers=编辑服务器
+Global Settings=选项设置
+
+# Config Form
+
+&Add=添加(&A)
+&Delete=删除(&D)
+Up=上移
+Down=下移
+
+New server=未配置的服务器
+
+Server=服务器(截图打码)
+Server IP=服务器 IP
+Server Port=服务器端口
+UDP Port=UDP端口
+Password=密码
+Encryption=加密
+Remarks=备注
+
+Adv. Setting=高级选项
+Obfs UDP=混淆UDP协议
+NOT all server support belows=以下选项不是所有服务端都支持
+TCP over TCP if not checked=不打钩使用原生 TCP(暂不能用)
+UDP over UDP if not checked=不打钩使用原生 UDP
+Recommend checked=保留功能
+Protocol=协议
+Protocol param=协议参数
+Obfs=混淆
+Obfs param=混淆参数
+SSR Link=SSR链接
+Original=原版
+Verify all=校验所有数据
+
+Balance=负载均衡
+Order=按次序
+Random=随机
+LowLatency=低延迟优先
+LowException=低错误优先
+SelectedFirst=选中优先
+Timer=定时切换
+Balance in group=所选组切换
+AutoBan=自动禁用出错服务器
+
+Remote proxy=二级（前置）代理
+Proxy On=开启代理
+PAC "direct" return this proxy=PAC“直连”使用二级代理
+Socks5(support UDP)=Socks5(支持UDP)
+Http tunnel=Http隧道
+TCP Port tunnel=TCP端口转发(需要相关混淆插件)
+Username=用户名
+
+Local proxy=本地代理
+Build-in http proxy=内置http代理(目前有bug)
+Proxy Port=本地端口
+Reconnect Times=重连次数
+ Timeout=连接超时
+TTL=空闲断开秒数
+
+OK=确定
+Cancel=取消
+
+# ServerLog Form
+
+ServerLog=服务器记录
+&Control=操作(&C)
+&Disconnect direct connections=断开直连连接(&D)
+Disconnect &All=断开当前所有连接(&A)
+Clear &MaxSpeed=重置历史最高(&M)
+&Clear=清空(&C)
+Clear &Selected Total=清空选中节点历史流量(&S)
+Clear &Total=清空所有历史流量(&T)
+Port &out=导出(&O)
+Copy current link=复制选中链接
+Copy current group links=复制选中组链接
+Copy all enable links=复制所有开启节点链接
+Copy all links=复制所有节点链接
+&Window=窗口(&W)
+Auto &size=自动调整大小(&S)
+Always On &Top=窗口置顶(&T)
+Total Connect=总连接
+Enable=开关
+Connecting=连接
+Latency=延迟
+Avg DSpeed=下载
+Max DSpeed=最高
+Avg UpSpeed=上传
+Max UpSpeed=最高
+Upload=总上传
+Dload=总下载
+DloadRaw=实下载
+Error=错误
+Timeout=超时
+Empty Response=空连
+Error Percent=出错比例
+Continuous=连错
+Version=版本
+
+# Global Log Form
+
+&File=文件(&F)
+Clear &log=清空日志(&L)
+Show in &Explorer=在资源管理器中显示(&E)
+&Close=关闭(&C)
+&View=视图(&V)
+&Font...=字体设置(&F)...
+&Wrap Text=自动换行(&W)
+&Always on top=置于顶层(&A)
+Log Viewer=日志查看器
+
+# QRCode Form
+
+QRCode=二维码
+
+# PAC Url Form
+
+Edit Online PAC URL=编辑在线 PAC 网址
+Edit Online PAC URL...=编辑在线 PAC 网址...
+Please input PAC Url=请输入 PAC 网址
+
+# InputPassword Form
+
+InputPassword=输入密码
+Parse gui-config.json error, maybe require password to decrypt=解析 gui-config.json 出错, 可能需要密码解密
+
+# ResetPassword Form
+
+ResetPassword=重置密码
+
+# PortSettingsForm Form
+
+Port Settings=端口设置
+Map Setting=映射设置
+Type=类型
+Server ID=服务器 ID
+Target Addr=目标地址
+Target Port=目标端口
+Local Port=本地端口
+Port Forward=端口转发
+Force Proxy=强制代理
+Proxy With Rule=规则代理
+#Enable=
+#Remarks=
+#OK=
+#Cancel=
+#&Add=
+#&Delete=
+
+# SubscribeForm Form
+
+Subscribe Settings=订阅设置
+URL=网址
+Group name=组名
+Auto update=自动更新
+
+# Messages
+
+Shadowsocks Error: {0}=Shadowsocks 错误: {0}
+Port already in use=端口已被占用
+Illegal port number format=非法端口格式
+Please add at least one server=请添加至少一个服务器
+Server IP can not be blank=服务器 IP 不能为空
+Password can not be blank=密码不能为空
+Port out of range=端口超出范围
+{0} {1} Update Found={0} {1} 更新
+Click menu to download=点击菜单项下载
+ShadowsocksR is here=ShadowsocksR 在这里
+You can turn on/off ShadowsocksR in the context menu=可以在右键菜单中开关 ShadowsocksR
+System Proxy Enabled=系统代理已启用
+System Proxy Disabled=系统代理未启用
+Failed to update PAC file =更新 PAC 文件失败
+PAC updated=更新 PAC 成功
+Domain white list list updated=更新域名白名单成功
+No updates found. Please report to GFWList if you have problems with it.=未发现更新。如有问题请提交给 GFWList。
+No QRCode found. Try to zoom in or move it to the center of the screen.=未发现二维码，尝试把它放大或移动到靠近屏幕中间的位置
+ShadowsocksR is already running.=ShadowsocksR 已经在运行。
+Find Shadowsocks icon in your notify tray.=请在任务栏里寻找 ShadowsocksR 图标。
+If you want to start multiple Shadowsocks, make a copy in another directory.=如果想启动多份，可以另外复制一份到别的目录。
+Failed to decode QRCode=无法解析二维码
+Failed to update registry=无法修改注册表
+System Proxy On: =系统代理已启用：
+Running: Port {0}=正在运行：端口 {0}
+Password NOT match=密码不匹配
+Update subscribe SSR node success=SSR服务器订阅更新成功
+Update subscribe SSR node failure=SSR服务器订阅更新失败
+Success=成功
